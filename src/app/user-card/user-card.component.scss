@@ -1,0 +1,22 @@
+// app.component.ts (o cualquier otro componente)
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.scss'],
+})
+export class AppComponent {
+  user1 = {
+    userName: 'Usuario 1',
+    profileImage: 'URL_DE_LA_IMAGEN_1',
+    additionalInfo: 'Información adicional para Usuario 1',
+  };
+
+  user2 = {
+    userName: 'Usuario 2',
+    profileImage: 'URL_DE_LA_IMAGEN_2',
+    additionalInfo: 'Información adicional para Usuario 2',
+  };
+}

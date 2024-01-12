@@ -1,0 +1,29 @@
+<!-- <ion-content>
+<div *ngFor="let color of colores">
+  <app-color-list color="color">
+
+  </app-color-list>
+</div>
+</ion-content> -->
+
+<!-- home.page.html -->
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ionic Angular
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Ionic Angular</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div *ngFor="let color of colores">
+    <app-color-list [color]="color"></app-color-list>
+  </div>
+</ion-content>

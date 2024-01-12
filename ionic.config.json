@@ -1,0 +1,7 @@
+{
+  "name": "Componentes_R",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
